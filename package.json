@@ -1,4 +1,5 @@
 {
+  "name": "occ-microsite",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
   }
