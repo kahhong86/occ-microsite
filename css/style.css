@@ -1,5 +1,6 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #fff;
 }
 
 .wrapper{
@@ -8,9 +9,21 @@ body{
     padding:0 20px;
 }
 
+.green{
+    color:#387c48;
+}
+
+.orange{
+    color:#f99e29;
+}
+
 header{
     padding:0px 0 0;
-    background: linear-gradient(to right, #fff 20%, #122d70 40%, #122d70 40%);
+    background: linear-gradient(to right, #fff 30%, #122d70 40%, #122d70 40%);
+}
+
+p{
+    margin:0px 0 20px;
 }
 
 .logo{
@@ -38,6 +51,10 @@ header{
     font-size:18px;
 }
 
+#header{
+    background-color: #fff;
+}
+
 #header nav{
     background-color:#8a704d;
     color:white;
@@ -60,6 +77,7 @@ header{
     text-align: center;
     padding:200px 0;
     font-family: 'Oswald';
+    margin:0 auto;
 }
 
 .hero blockquote{
@@ -72,12 +90,25 @@ header{
     font-size: 30px;
 }
 
+.hero img{
+    margin:0 auto 50px;
+}
+
+#homepage .hero{
+    background-image: url(../assets/home/banner.png);
+}
+
 .button{
     background-color: #34bce2;
     border:2px solid white;
     display: inline-block;
     border-radius: 20px;
     padding: 5px 20px;
+}
+
+.button.cta{
+    background-color: #f89c26;
+    text-transform: uppercase;
 }
 
 .date{
@@ -103,6 +134,12 @@ header{
     font-size:40px;
     font-family: 'Oswald';
     text-transform: uppercase;
+}
+
+.title-header-alt{
+    margin:30px 0;
+    font-size:40px;
+    font-family: 'Oswald';
 }
 
 .schedule-nav{
@@ -193,9 +230,14 @@ header{
 }
 
 #footer .media{
-    background:#ccc;
-    padding:30px 0 40px;
+    background-color:#e4e4e4;
     color:#10676e; 
+}
+
+#footer .media .wrapper{
+    background-image:url("../assets/share/bg-footer.jpg");
+    background-repeat: no-repeat;
+    padding:30px 20px 40px;
 }
 
 #footer .media h4{
@@ -292,4 +334,83 @@ header{
 #footer .copyright span{
     display: block;
     padding:10px 0;
+}
+
+.checkpoint{
+    border-bottom:1px solid #8b8b8b;
+    margin:0 0 50px;
+    font-family: "Oswald";
+}
+
+.checkpoint .wrapper{
+    display: flex;
+    padding:20px 0;
+}
+
+.checkpoint .date{
+    background:transparent url("../assets/home/ico2.png") no-repeat left center;
+    background-size: 72px 72px;
+    font-size:40px;
+    padding:20px 30px;
+    font-weight: bold;
+}
+
+.checkpoint .address{
+    padding:0 20px;
+    border-left:5px solid #000;
+    border-right:5px solid #000;
+    font-size:24px;
+}
+
+.checkpoint a{
+    padding:25px;
+    display: block;
+}
+
+.checkpoint div{
+    flex-grow: 1;
+}
+
+.slogan{
+    margin:50px 0;
+    border-top:12px solid #f99e29;
+    border-bottom:12px solid #f99e29;
+}
+
+.ico-group{
+    margin:80px 0;
+}
+
+.ico-group div{
+    display: inline-block;
+    margin-right:50px;
+}
+
+.ico-group div span{
+    display: block;
+    margin:0 0 10px;
+}
+
+.contact-us{
+    background-color: #0f686e;
+    padding:40px 0;
+}
+
+.contact{
+    display: flex;
+    color:#fff;
+    padding:40px 0;
+}
+.contact div{
+    flex-grow: 1;
+}
+
+.contact span{
+    display: block;
+    margin:0 0 10px;
+}
+
+.contact img{
+    display: inline-block;
+    margin:0 15px 0 0;
 }
