@@ -98,6 +98,10 @@ p{
     background-image: url(../assets/home/banner.png);
 }
 
+#programme .hero{
+    background-image: url(../assets/programme/header_Programme.jpg);
+}
+
 .button{
     background-color: #34bce2;
     border:2px solid white;
@@ -111,23 +115,6 @@ p{
     text-transform: uppercase;
 }
 
-.date{
-    font-size:24px;
-    position: relative;
-    padding: 40px 30px;
-    font-family: 'Oswald';
-}
-
-.date span{
-    position: absolute;
-    left:10px;
-    top:35px;
-    background-color: #f99b27;
-    width:50px;
-    height: 50px;
-    border-radius: 50px;
-    z-index: -1;
-}
 
 .title-header{
     margin:30px 0;
@@ -140,88 +127,9 @@ p{
     margin:30px 0;
     font-size:40px;
     font-family: 'Oswald';
+    line-height: 130%;
 }
 
-.schedule-nav{
-    margin:40px 0 40px;
-    display: flex;
-    flex-flow: row wrap;
-}
-
-.schedule-nav a{
-    border:3px solid #ccc;
-    margin:0 -1px;
-    padding: 10px 30px;
-    display: inline-block;
-    text-transform: uppercase;
-    color:#999;
-    letter-spacing: 2px;
-    font-weight: bold;
-}
-
-.schedule-nav a.selected{
-    border-color:#ff4949;
-    z-index: 2;
-    position: relative;
-}
-
-.schedule{
-    margin:0 0 40px;
-}
-
-.schedule .date{
-    margin:0 0 40px;
-    padding: 0;
-    font-weight: 100;
-    text-transform: uppercase;
-}
-
-.schedule .date strong{
-    font-size:40px;
-    border:3px solid #ff4949;
-    padding:2px 8px 5px;
-    font-weight: bold;
-    position: relative;
-    top:3px;
-    margin:0 5px 0 0;
-}
-
-.timing{
-    font-size:18px;
-    display: flex;
-    margin:0 0 30px;
-}
-
-
-.timing div{
-    display: inline-block;
-}
-
-.timing div:first-child{
-    width:30%;
-    display: flex;
-    align-items: center;
-    border-left:0;
-    text-align: left;
-    padding-left:5px;
-}
-
-.timing div{
-    width:70%;
-    border-left:3px solid #ccc;
-    padding:10px 0 10px 40px;
-    margin:0 0 10px;
-}
-
-.timing div strong{
-    width: auto;;
-}
-
-.timing .title{
-    text-transform: uppercase;
-    font-size:20px;
-    font-weight: 100;
-}
 
 #footer{
     background-color: #1c1c1c;
@@ -353,13 +261,15 @@ p{
     font-size:40px;
     padding:20px 30px;
     font-weight: bold;
+    flex-grow: 2;
 }
 
 .checkpoint .address{
-    padding:0 20px;
+    padding:0 45px;
     border-left:5px solid #000;
     border-right:5px solid #000;
     font-size:24px;
+    flex-grow: 2;
 }
 
 .checkpoint a{
@@ -414,3 +324,4 @@ p{
     display: inline-block;
     margin:0 15px 0 0;
 }
+
