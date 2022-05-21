@@ -36,11 +36,21 @@ ol li{
 
 header{
     padding:0px 0 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 9999;
 }
 
 header .wrapper{
     padding:0;
     max-width: 1024px;
+    position: relative;
+    z-index: 999;
+}
+
+#maincontainer{
+    padding:120px 0 0;
 }
 
 p{
@@ -404,4 +414,135 @@ p{
 
 .date p{
     margin:0 0 0 20px;
+}
+
+
+
+.small{
+    display: none;
+}
+
+.bu-logo img{
+    width: 180px;   
+}
+
+.oblique img{
+    width:30px
+}
+
+.small-menu,.small-nav{
+    display: none;
+}
+
+@media only screen and (max-width: 734px) {
+    .small{
+        display: inline-block;
+    }
+    .large{
+        display: none;
+    }
+    .smu-logo{
+        padding:5px 12px;
+    }
+
+    .bu-logo{
+        padding:0;
+    }
+
+    .bu-logo img{
+        width: 125px;
+        position: relative;
+        top:5px;
+    }
+
+    .oblique img{
+        width:24px
+    }
+
+    .small-menu{
+        display: block;
+    }
+
+    #maincontainer{
+        padding:64px 0 0;
+    }
+    .menu{
+        display: none;
+    }
+
+    .small-menu{
+        background: #fff;
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top:10px;
+        right:10px;
+        border-radius:10px;
+        padding:9px;
+        z-index: 9999;
+    }
+
+    .small-menu .hamburger{
+        width: 100%;
+        display: block;
+        position: relative;
+        top: 6px;
+        background: #000;
+        height: 3px;
+    }
+    .small-menu .hamburger::before{
+        width: 100%;
+        height: 3px;
+        background-color: #000;   
+        display: block;
+        position: relative;
+        bottom:6px;
+        content:"";
+        transition: transform 0.5s;
+    }
+    .small-menu .hamburger::after{
+        width: 100%;
+        height: 3px;
+        background-color: #000;   
+        display: block;
+        position: relative;
+        bottom:15px;
+        content:"";
+        transition: transform 0.5s,bottom 0.5s;
+    }
+
+    .small-menu.active .hamburger{
+        background-color: transparent;
+    }
+    .small-menu.active .hamburger::before{
+        transform: rotate(-45deg);
+    }
+    .small-menu.active .hamburger::after{
+        transform: rotate(45deg);
+        bottom:9px;
+    }
+
+    #header .small-nav{
+        display: block;
+        left:-100vw;
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        top:0;
+        background-color: rgba(138, 112, 76, 0.9);
+        transition: left 0.5s;
+        z-index: 999;
+        padding-top:50px;
+    }
+    #header .small-nav.active{
+        left:0;
+    }
+
+    #header .small-nav a{
+        display: block;
+    }
+    #header .small-nav a:last-child{
+        float: none;
+        background-color: transparent;
+    }
 }
