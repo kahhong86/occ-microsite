@@ -569,6 +569,20 @@ p{
     }
 
     .hero blockquote{
-        font-size:40px;
+        font-size:35px;
+        line-height: 120%;
+    }
+
+    .alt-banner{
+        padding:0 20px;
+    }
+    .alt-banner p{
+        font-size:20px;
+    }
+    .alt-banner .date{
+        padding:20px 0;
+    }
+    .alt-banner img{
+        width:100px;
     }
 }
