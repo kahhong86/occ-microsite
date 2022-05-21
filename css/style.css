@@ -156,12 +156,6 @@ p{
     margin:0 auto 50px;
 }
 
-#homepage .hero{
-    background-image: url(../assets/home/banner.png);
-}
-
-
-
 .button{
     background-color: #34bce2;
     border:2px solid white;
@@ -314,6 +308,7 @@ p{
     font-size:11px;
     border-top:1px solid #ccc;
     padding-top:10px;
+    color:#CBCBCB;
 }
 
 #footer nav{
@@ -333,91 +328,6 @@ p{
 #footer .copyright span{
     display: block;
     padding:10px 0;
-}
-
-.checkpoint{
-    border-bottom:1px solid #8b8b8b;
-    margin:0 0 50px;
-    font-family: "Oswald";
-}
-
-.checkpoint .wrapper{
-    display: flex;
-    padding:20px 0;
-}
-
-.checkpoint .date{
-    background:transparent url("../assets/home/ico2.png") no-repeat left center;
-    background-size: 72px 72px;
-    font-size:40px;
-    padding:20px 30px;
-    font-weight: bold;
-    flex-grow: 2;
-}
-
-.checkpoint .address{
-    padding:0 45px;
-    border-left:5px solid #000;
-    border-right:5px solid #000;
-    font-size:24px;
-    flex-grow: 2;
-}
-
-.checkpoint a{
-    padding:25px;
-    display: block;
-}
-
-.checkpoint div{
-    flex-grow: 1;
-}
-
-.slogan{
-    margin:50px 0;
-    border-top:12px solid #f99e29;
-    border-bottom:12px solid #f99e29;
-}
-
-.slogan .title-header-seq{
-    margin:15px 0;
-}
-
-.ico-group{
-    margin:80px 0;
-}
-
-.ico-group div{
-    display: inline-block;
-    margin-right:50px;
-}
-
-.ico-group div span{
-    display: block;
-    margin:0 0 10px;
-}
-
-.contact-us{
-    background-color: #0f686e;
-    padding:40px 0;
-}
-
-.contact{
-    display: flex;
-    color:#fff;
-    padding:40px 0;
-}
-.contact div{
-    flex-grow: 1;
-}
-
-.contact span{
-    display: block;
-    margin:0 0 10px;
-}
-
-.contact img{
-    display: inline-block;
-    margin:0 15px 0 0;
 }
 
 
@@ -607,5 +517,58 @@ p{
     #header .small-nav a:last-child{
         float: none;
         background-color: transparent;
+    }
+    
+    .hero{
+        padding:100px 0;
+    }
+
+    .title-header{
+        font-size:40px;
+    }
+    .title-header-alt{
+        font-size:30px;
+    }
+
+    #footer .media h4{
+        font-size:24px;
+    }
+    #footer .media .wrapper span{
+        display: none;
+    }
+
+    #footer .media .wrapper div{
+        top:12px;
+        margin-left:20px;
+    }
+    #footer .media div a{
+        width:40px;
+    }
+
+    #footer .sitemap{
+        display: block;
+    }
+
+    #footer .sitemap div{
+        margin:0 0 20px;
+    }
+
+    #footer .copyright{
+        text-align: center;
+        margin:0 auto;
+    }
+    #footer .copyright .sosumi{
+        display: block;
+    }
+    .terms{
+        margin:0 0 20px;
+    }
+    .terms,.social-media{
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero blockquote{
+        font-size:40px;
     }
 }

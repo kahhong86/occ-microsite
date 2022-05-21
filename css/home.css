@@ -1,0 +1,127 @@
+
+#homepage .hero{
+    background-image: url(../assets/home/banner.png);
+}
+
+
+.checkpoint{
+    border-bottom:1px solid #8b8b8b;
+    margin:0 0 50px;
+    font-family: "Oswald";
+}
+
+.checkpoint .wrapper{
+    display: flex;
+    padding:20px 0;
+}
+
+.checkpoint .date{
+    background:transparent url("../assets/home/ico2.png") no-repeat left center;
+    background-size: 72px 72px;
+    font-size:40px;
+    padding:20px 30px;
+    font-weight: bold;
+    flex-grow: 2;
+}
+
+.checkpoint .address{
+    padding:0 45px;
+    border-left:5px solid #000;
+    border-right:5px solid #000;
+    font-size:24px;
+    flex-grow: 2;
+}
+
+.checkpoint a{
+    padding:25px;
+    display: block;
+}
+
+.checkpoint div{
+    flex-grow: 1;
+}
+
+.slogan{
+    margin:50px 0;
+    border-top:12px solid #f99e29;
+    border-bottom:12px solid #f99e29;
+}
+
+.slogan .title-header-seq{
+    margin:15px 0;
+}
+
+.ico-group{
+    margin:80px 0;
+}
+
+.ico-group div{
+    display: inline-block;
+    margin-right:50px;
+}
+
+.ico-group div span{
+    display: block;
+    margin:0 0 10px;
+}
+
+.contact-us{
+    background-color: #0f686e;
+    padding:40px 0;
+}
+
+.contact{
+    display: flex;
+    color:#fff;
+    padding:40px 0;
+}
+.contact div{
+    flex-grow: 1;
+}
+
+.contact span{
+    display: block;
+    margin:0 0 10px;
+}
+
+.contact img{
+    display: inline-block;
+    margin:0 15px 0 0;
+}
+
+@media only screen and (max-width: 734px) {
+    .checkpoint{
+        padding:0 10px;
+    }
+    .checkpoint .wrapper{
+        /* display: block; */
+    }
+    .checkpoint .date{
+        font-size: 16px;
+        padding: 17px 0px 18px 17px;
+        background-size: 40px 40px;
+    }
+    .checkpoint .address{
+        font-size:13px;
+        padding:0 10px;
+    }
+    .checkpoint a{
+        padding:10px;
+    }
+    .checkpoint a img{
+        width:30px;
+        margin:0 auto
+    }
+
+    .ico-group{
+        margin:20px 0;
+    }
+    .ico-group div{
+        margin:0 0 10px;
+        display: block;
+    }
+
+    .contact{
+        display: block;
+    }
+}
