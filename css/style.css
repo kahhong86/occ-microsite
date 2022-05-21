@@ -121,10 +121,14 @@ p{
 
 #header nav a:last-child{
     background-color: #707070;
+    border-bottom:3px solid #707070;
 }
 
 .menu{
     background-color: #fff;
+}
+.menu a.selected{
+    border-bottom:3px solid #fff;
 }
 
 .hero{
@@ -543,6 +547,7 @@ p{
         top: 6px;
         background: #000;
         height: 3px;
+        border-radius: 10px;
     }
     .small-menu .hamburger::before{
         width: 100%;
@@ -553,6 +558,7 @@ p{
         bottom:6px;
         content:"";
         transition: transform 0.5s;
+        border-radius: 10px;
     }
     .small-menu .hamburger::after{
         width: 100%;
@@ -563,6 +569,7 @@ p{
         bottom:15px;
         content:"";
         transition: transform 0.5s,bottom 0.5s;
+        border-radius: 10px;
     }
 
     .small-menu.active .hamburger{
@@ -591,9 +598,11 @@ p{
     #header .small-nav.active{
         left:0;
     }
-
     #header .small-nav a{
         display: block;
+    }
+    #header .small-nav a.selected{
+        border-left:3px solid #fff;
     }
     #header .small-nav a:last-child{
         float: none;
