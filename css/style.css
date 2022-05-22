@@ -335,6 +335,10 @@ p{
     padding:0 35px;
 }
 
+.alt-banner .date{
+    font-weight: bold;
+}
+
 .date{
     font-size:24px;
     position: relative;
@@ -349,7 +353,7 @@ p{
     width:50px;
     height: 50px;
     z-index: -1;
-    margin-top:-5px
+    margin-top:-8px
 }
 
 .date p{
@@ -510,6 +514,7 @@ p{
     }
     #header .small-nav a{
         display: block;
+        border-left:3px solid transparent;
     }
     #header .small-nav a.selected{
         border-left:3px solid #fff;
@@ -517,6 +522,7 @@ p{
     #header .small-nav a:last-child{
         float: none;
         background-color: transparent;
+        border-bottom:0;
     }
     
     .hero{
@@ -575,14 +581,20 @@ p{
 
     .alt-banner{
         padding:0 20px;
+        background: #eee;
     }
     .alt-banner p{
         font-size:20px;
+        position: relative;
+        z-index: 0;
     }
     .alt-banner .date{
         padding:20px 0;
     }
     .alt-banner img{
         width:100px;
+    }
+    .date span{
+        z-index: 0;
     }
 }
