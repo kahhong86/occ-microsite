@@ -199,6 +199,13 @@ p{
     font-weight: bold;
 }
 
+#about-us{
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border:0px solid red;
+    margin-top:76px;
+}
 
 #footer{
     background-color: #1c1c1c;
@@ -596,5 +603,9 @@ p{
     }
     .date span{
         z-index: 0;
+    }
+
+    #about-us{
+        margin-top:36px;
     }
 }
