@@ -7,7 +7,7 @@ $( document ).ready(function() {
         $(bio).removeClass('hidden');
     });
 
-    $('.modal').click(function(e){
+    $('.modal-close').click(function(e){
         e.preventDefault();
         $('body').removeClass('modal-open');
         $('.modal').removeClass('open');

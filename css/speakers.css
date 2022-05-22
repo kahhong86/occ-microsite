@@ -70,6 +70,14 @@ body.modal-open{
     padding:30px;
     position: relative;
     margin:20px auto 0;
+    z-index: 99999;
+}
+.modal-close{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0;
+    left:0;
 }
 .close{
     position: absolute;
