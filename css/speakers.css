@@ -9,12 +9,13 @@
 
 .speakers{
     display: grid;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     text-align: center;
     margin:0 -10px;
 }
 .speakers .bio{
-    margin:0 10px 50px;
+    margin:0 10px 60px;
+    position: relative;
 }
 .speakers .bio .portrait{
     background:#ccc;
@@ -36,10 +37,13 @@
     margin:20px 0 0;
     text-transform: uppercase;
     font-size:13px;
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
 }
 
 @media only screen and (max-width: 734px) {
     .speakers{
-        grid-template-columns: auto auto;   
+        grid-template-columns: 1fr 1fr;   
     }
 }
