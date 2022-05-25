@@ -144,6 +144,9 @@ p{
 
 .hero blockquote{
     font-size:60px;
+    line-height: 130%;
+    font-weight: normal;
+    font-weight: 300;
 }
 
 .hero span{
