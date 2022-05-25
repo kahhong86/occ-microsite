@@ -7,6 +7,10 @@
     background-color: #34bce2;
 }
 
+.speakers-title{
+    margin-bottom:70px;
+}
+
 .speakers{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -14,7 +18,7 @@
     margin:0 -10px;
 }
 .speakers .bio{
-    margin:0 10px 60px;
+    margin:0 10px 110px;
     position: relative;
 }
 .speakers .bio .portrait{
@@ -24,12 +28,13 @@
     overflow: hidden;
 }
 .speakers .bio strong{
-    margin:20px 0 0;
+    margin:20px 0 20px;
     border-top:3px solid #8a704d;
     padding:10px 0 0;
 }
 .speakers .bio strong,.speakers .bio span{
     display: block;
+    font-size:13px;
 }
 .speakers .bio button{
     background-color: #151c55;
@@ -87,7 +92,7 @@ body.modal-open{
     top:10px;
 }
 .modal-title{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -104,6 +109,11 @@ body.modal-open{
     margin:0 0 30px;
 }
 
+.modal-box .portrait p{
+    font-size:15px;
+}
+
+
 @media only screen and (max-width: 734px) {
     .speakers{
         grid-template-columns: 1fr 1fr;   
@@ -111,6 +121,10 @@ body.modal-open{
 
     .modal-box{
         width: 90vw;
+    }
+
+    .speakers-title{
+        margin-bottom:40px;
     }
 }
 

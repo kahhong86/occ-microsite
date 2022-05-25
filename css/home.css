@@ -70,24 +70,6 @@
     padding:40px 0;
 }
 
-.contact{
-    display: flex;
-    color:#fff;
-    padding:40px 0;
-}
-.contact div{
-    flex-grow: 1;
-}
-
-.contact span{
-    display: block;
-    margin:0 0 10px;
-}
-
-.contact img{
-    display: inline-block;
-    margin:0 15px 0 0;
-}
 
 @media only screen and (max-width: 734px) {
     .checkpoint{
@@ -121,7 +103,5 @@
         display: block;
     }
 
-    .contact{
-        display: block;
-    }
+    
 }

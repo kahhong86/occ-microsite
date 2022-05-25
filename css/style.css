@@ -123,9 +123,15 @@ p{
     background-color: #707070;
     border-bottom:3px solid #707070;
 }
+#header nav a.selected:last-child{
+    border-bottom:3px solid #fff
+}
 
 .menu{
     background-color: #fff;
+}
+.menu a{
+    border-bottom:3px solid transparent;
 }
 .menu a.selected{
     border-bottom:3px solid #fff;
@@ -343,6 +349,7 @@ p{
 
 .alt-banner{
     padding:0 35px;
+    background: #ebebeb;
 }
 
 .alt-banner .date{
@@ -362,12 +369,13 @@ p{
     background-size:50px 50px;
     width:50px;
     height: 50px;
-    z-index: -1;
+    z-index: 0;
     margin-top:-8px
 }
 
 .date p{
     margin:0 0 0 20px;
+    position: relative;
 }
 
 
@@ -591,7 +599,6 @@ p{
 
     .alt-banner{
         padding:0 20px;
-        background: #eee;
     }
     .alt-banner p{
         font-size:20px;

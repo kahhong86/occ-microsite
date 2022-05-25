@@ -1,0 +1,43 @@
+#contact-us .hero{
+    background-image: url(../assets/contact-us/header_YEDChallenge.jpg);
+    border-bottom:18px solid #f99e29;
+}
+
+.button{
+    background-color: #f99e29;
+}
+
+.slogan{
+    margin:50px 0;
+    border-top:12px solid #f99e29;
+    border-bottom:12px solid #f99e29;
+}
+
+.slogan .title-header-seq{
+    margin:15px 0;
+}
+
+
+.contact{
+    display: flex; 
+    padding:40px 0;
+}
+.contact div{
+    flex-grow: 1;
+}
+
+.contact span{
+    display: block;
+    margin:0 0 10px;
+}
+
+.contact img{
+    display: inline-block;
+    margin:0 15px 0 0;
+}
+
+@media only screen and (max-width: 734px) {
+    .contact{
+        display: block;
+    }
+}
