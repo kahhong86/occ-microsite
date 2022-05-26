@@ -4,19 +4,21 @@ $( document ).ready(function() {
         const bio = $(this).attr('name');
         $('body').addClass('modal-open');
         $('.modal').addClass('open');
-        $(bio).removeClass('hidden');
+        setTimeout(function(){
+            $(bio).removeClass('modal-hidden');
+        },200);
     });
 
     $('.modal-close').click(function(e){
         e.preventDefault();
         $('body').removeClass('modal-open');
         $('.modal').removeClass('open');
-        $('.modal-box').addClass('hidden');
+        $('.modal-box').addClass('modal-hidden');
     });
     $('.close').click(function(e){
         e.preventDefault();
         $('body').removeClass('modal-open');
         $('.modal').removeClass('open');
-        $('.modal-box').addClass('hidden');
+        $('.modal-box').addClass('modal-hidden');
     });
 });

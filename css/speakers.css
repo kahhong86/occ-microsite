@@ -45,7 +45,9 @@
     font-size:13px;
     position: absolute;
     bottom: -40px;
-    left: 50px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width:85px;
 }
 
 body.modal-open{
@@ -59,13 +61,15 @@ body.modal-open{
     position: fixed;
     top:0;
     left:0;
-    z-index: 99999;
+    z-index: -2;
     overflow-y:auto;
     overflow-x: hidden;
-    display: none;
+    opacity: 0;
+    transition: opacity 0.5s, z-index 0.5;
 }
 .modal.open{
-    display: block;
+    opacity: 1;
+    z-index: 99999;
 }
 .modal-box{
     background-color: #fff;
@@ -73,9 +77,11 @@ body.modal-open{
     height: auto;
     color:#000;
     padding:30px;
-    position: relative;
+    position: absolute;
     margin:20px auto 0;
     z-index: 99999;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }
 .modal-close{
     width: 100vw;
@@ -100,6 +106,23 @@ body.modal-open{
     font-size:14px;
     border-bottom:4px solid #000;
     padding-bottom: 30px;
+}
+
+.modal .modal-box{
+    transition: top 0.5s, opacity 0.5s;
+}
+
+.modal-container{
+    position: relative;
+}
+
+.modal.open .modal-box{
+    top: 0px;
+    opacity:1;
+}
+.modal.open .modal-hidden{
+    top: -2500px;
+    opacity:0;
 }
 .modal-box .portrait{
     margin:40px 0 0;
