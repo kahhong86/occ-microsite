@@ -6,3 +6,46 @@
 .button{
     background-color: #4fb548;
 }
+
+ol li img{
+    display: inline-block;
+}
+
+.bg{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 -2%;
+}
+
+.bg span{
+    width: 46%;
+    margin:2%;
+    position: relative;
+    top:auto;
+    transition: all 0.5s;
+}
+
+.bg span:hover{
+    width:48%;
+    margin:1%;
+    /* top: 4px; */
+}
+
+@media only screen and (max-width: 734px) {
+    .bg{
+        display: block;
+    }
+    .bg span{
+        display: block;
+        width:96%;
+        margin:2% 2% 5% 2%;
+    }
+    .bg span:hover{
+        width: 46%;
+        margin:2%;
+    }
+    .bg span.expand{
+        width:98%;
+        margin:2% 1% 5% 1%;
+    }
+}
