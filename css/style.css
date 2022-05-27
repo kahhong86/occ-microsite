@@ -78,7 +78,7 @@ p{
 
 .logo-container{
     display: inline-block;
-    padding:0px 0px 0px 0;
+    padding:0px 0px 0px 20px;
     background-color: #fff;
 }
 
@@ -131,7 +131,7 @@ p{
 }
 
 #header nav .wrapper{
-    max-width: 1140px;
+    padding:0 20px;
 }
 
 #header nav .wrapper div{
@@ -470,6 +470,11 @@ p{
     .large{
         display: none;
     }
+
+    .logo-container{
+        padding-left:0;
+    }
+
     .smu-logo{
         padding:2px 0px 5px 12px;
     }
@@ -645,7 +650,7 @@ p{
     }
 
     .alt-banner{
-        padding:0 20px;
+        padding:0 10px;
     }
     .alt-banner p{
         font-size:20px;
