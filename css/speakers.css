@@ -121,7 +121,7 @@ body.modal-open{
     opacity:1;
 }
 .modal.open .modal-hidden{
-    top: -2500px;
+    top: -1500px;
     opacity:0;
 }
 .modal-box .portrait{

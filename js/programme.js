@@ -7,4 +7,11 @@ $( document ).ready(function() {
         $($(this).attr('href')).removeClass('hidden').addClass('block');
         console.log($(this).attr('href'));
     });
+
+    $('.timing .synopsis-container a').click(function(e){
+        e.preventDefault();
+        $(this).toggleClass('expand');
+        console.log($(this).parent().find('.synopsis'))
+        $(this).parent('div').find('.synopsis').toggleClass('expand');
+    });
 });

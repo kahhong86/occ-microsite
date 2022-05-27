@@ -82,13 +82,54 @@
 }
 
 .timing div strong{
-    width: auto;;
+    width: auto;
 }
 
 .timing .title{
     text-transform: uppercase;
     font-size:20px;
     font-weight: 100;
+}
+
+.timing div a.expand span{
+    transform:rotate(90deg) translate(2px,-3px);
+}
+
+.timing div a span{
+    transition:transform 0.5s;
+    display: inline-block;
+}
+
+.timing .subtitle{
+    text-transform: uppercase;
+    display: block;
+}
+
+.timing .synopsis-container{
+    padding:0;
+    margin:0;
+    border:0;
+    width: 100%;
+}
+.timing ul{
+    display: list-item;
+    padding-left: 20px;
+}
+.timing ul li{
+    list-style-type: disc;
+}
+
+.synopsis{
+    height:0;
+    font-size:13px;
+    line-height: 140%;
+    display: block;
+    overflow: hidden;
+    margin:0 0 0px;
+}
+.synopsis.expand{
+    height: auto;
+    margin:0 0 10px;
 }
 
 .small{
@@ -103,12 +144,25 @@
 
     .timing{
         font-size:14px;
+        display: block;
+        border-bottom:3px solid #ccc;
+    }
+    .timing div:first-child{
+        
+        width: 100%;
+        padding:0;
+    }
+    .timing div{
+        border:0;
+        width: 100%;
+        padding-left: 0;
     }
     .timing .title{
         font-size:16px;
     }
     .timing .time{
-        font-size:13px;
+        font-size:18px;
+        width: 100%;
     }
 
     .small{

@@ -10,6 +10,13 @@ body{
     position: relative;
 }
 
+a{
+    color:#387c48;
+}
+a:hover{
+    color:#00FF00;
+}
+
 ol{
     padding: 0 0 0 20px;
 }
@@ -117,6 +124,7 @@ p{
     padding:10px 20px;
     font-weight: bold;
     font-size:14px;
+    color:#fff
 }
 
 #header nav a:last-child{
@@ -384,8 +392,13 @@ p{
     display: none;
 }
 
+.smu-logo img{
+    margin:6px 10px 0 0;
+}
+
 .bu-logo img{
-    width: 180px;   
+    margin:5px 0 0;
+    width: 157px;   
 }
 
 .oblique img{
@@ -533,6 +546,7 @@ p{
     #header .small-nav a{
         display: block;
         border-left:3px solid transparent;
+        color:#fff;
     }
     #header .small-nav a.selected{
         border-left:3px solid #fff;
