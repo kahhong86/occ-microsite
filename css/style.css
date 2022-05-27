@@ -49,9 +49,16 @@ header{
     z-index: 9999;
 }
 
+@media only screen and (min-width: 1400px) {
+    header .wrapper{
+        max-width: 1320px;
+    }
+}
+
+
 header .wrapper{
     padding:0;
-    max-width: 1024px;
+    max-width: 1140px;
     position: relative;
     z-index: 999;
 }
@@ -116,20 +123,29 @@ p{
 #header nav{
     background-color:rgba(112, 112, 112, 0.8);
     color:white;
-    margin:0px auto 0;
+}
+
+#header nav .wrapper{
+    max-width: 1140px;
+}
+
+#header nav .wrapper div{
+    margin:0 -20px;
 }
 
 #header nav a{
     display: inline-block;
-    padding:10px 20px;
+    padding:10px 0px;
     font-weight: bold;
     font-size:14px;
-    color:#fff
+    color:#fff;
+    margin:0 20px;
 }
 
 #header nav a:last-child{
     background-color: #707070;
     border-bottom:3px solid #707070;
+    padding:10px 20px;
 }
 #header nav a.selected:last-child{
     border-bottom:3px solid #fff
@@ -328,6 +344,10 @@ p{
     line-height: 200%;
 }
 
+#footer .sitemap .links p a{
+    color:#cbcbcb;
+}
+
 #footer .copyright{
     font-size:11px;
     border-top:1px solid #ccc;
@@ -347,6 +367,7 @@ p{
 #footer nav a{
     padding:0 10px;
     border-left:2px solid #ccc;
+    color:#fff;
 }
 
 #footer .copyright span{
@@ -468,6 +489,7 @@ p{
 
     #maincontainer{
         padding:64px 0 0;
+        background:#ebebeb;
     }
     .menu{
         display: none;
