@@ -55,10 +55,15 @@ header{
     }
 }
 
+@media only screen and (min-width: 1200px) {
+    header .wrapper{
+        max-width: 1140px;
+    }
+}
 
 header .wrapper{
     padding:0;
-    max-width: 1140px;
+    max-width: 1024px;
     position: relative;
     z-index: 999;
 }
@@ -466,7 +471,7 @@ p{
         display: none;
     }
     .smu-logo{
-        padding:5px 12px;
+        padding:2px 0px 5px 12px;
     }
 
     .bu-logo{
@@ -476,7 +481,7 @@ p{
     .bu-logo img{
         width: 125px;
         position: relative;
-        top:5px;
+        top:0px;
     }
 
     .oblique img{
@@ -569,6 +574,8 @@ p{
         display: block;
         border-left:3px solid transparent;
         color:#fff;
+        margin:0;
+        padding:10px 20px;
     }
     #header .small-nav a.selected{
         border-left:3px solid #fff;
@@ -576,6 +583,10 @@ p{
     #header .small-nav a:last-child{
         float: none;
         background-color: transparent;
+        border-bottom:0;
+        padding:10px 20px;
+    }
+    #header .small-nav a.selected:last-child{
         border-bottom:0;
     }
     
