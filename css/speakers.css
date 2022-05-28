@@ -28,14 +28,15 @@
     overflow: hidden;
 }
 .speakers .bio strong{
-    margin:20px 0 20px;
-    border-top:3px solid #8a704d;
+    margin:25px 0 20px;
+    border-top:5px solid #393939;
     padding:10px 0 0;
     font-family: 'Oswald';
+	font-size: 20px;
 }
 .speakers .bio strong,.speakers .bio span{
     display: block;
-    font-size:13px;
+    font-size:14px;
 }
 .speakers .bio button{
     background-color: #151c55;

@@ -6,7 +6,11 @@
 .button{
     background-color: #4fb548;
 }
-
+.button.download{
+    background-color: #39875e;
+    text-transform: uppercase;
+    color:#fff;
+}
 ol li img{
     display: inline-block;
 }
