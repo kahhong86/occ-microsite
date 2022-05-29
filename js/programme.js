@@ -14,4 +14,18 @@ $( document ).ready(function() {
         console.log($(this).parent().find('.synopsis'))
         $(this).parent('div').find('.synopsis').toggleClass('expand');
     });
+
+    $('#backtotop-programme').click(function(e){
+        e.preventDefault();
+        if ($(window).width() < 768) {
+            $('html').animate({
+                scrollTop:$("#schedule-nav").offset().top - 80
+            }, 500);
+        }else{
+            $('html').animate({
+                scrollTop:$("#schedule-nav").offset().top - 130
+            }, 500);
+        }
+        
+      });
 });
