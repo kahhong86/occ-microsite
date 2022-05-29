@@ -15,6 +15,13 @@ ol li img{
     display: inline-block;
 }
 
+
+/* This controls the unordered list on the what's up instruction */
+.instruction li{
+    line-height: 300%;
+    margin:0 0 20px;
+}
+
 .bg{
     display: flex;
     flex-wrap: wrap;

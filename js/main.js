@@ -6,4 +6,11 @@ $(document).ready(function(){
         $('.small-nav').toggleClass('active');
         $('.small-menu').toggleClass('active');
     });
+
+    $('#backtotop').click(function(e){
+        e.preventDefault();
+        $('html').animate({
+            scrollTop:0
+        }, 500);
+    });
 });

@@ -27,14 +27,17 @@
     height: 150px;
     overflow: hidden;
 }
+
+/* Spacing for name and designation determine by margin bottom - currently is 15px */
 .speakers .bio strong{
-    margin:25px 0 20px;
+    margin:25px 0 15px;
     border-top:5px solid #393939;
     padding:10px 0 0;
     font-family: 'Oswald';
 	font-size: 20px;
+    display: block;
 }
-.speakers .bio strong,.speakers .bio span{
+.speakers .bio span{
     display: block;
     font-size:14px;
 }

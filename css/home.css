@@ -19,21 +19,21 @@
     background:transparent url("../assets/home/ico2.png") no-repeat left center;
     background-size: 72px 72px;
     font-size:40px;
-    padding:20px 30px;
+    padding:20px 10px 20px 30px;
     font-weight: bold;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .checkpoint .address{
-    padding:0 45px;
+    padding:0 0px 0 60px;
     border-left:5px solid #000;
     border-right:5px solid #000;
     font-size:24px;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 
 .checkpoint a{
-    padding:25px;
+    padding:25px 25px 25px 55px;
     display: block;
 }
 
