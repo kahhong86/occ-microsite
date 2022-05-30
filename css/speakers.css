@@ -23,9 +23,27 @@
 }
 .speakers .bio .portrait{
     background:#ccc;
-    width:100%;
-    height: 150px;
+    width:193px;
+    height: 193px;
     overflow: hidden;
+    text-align: center;
+}
+
+.speakers .bio .portrait img{
+    margin:0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+    .speakers .bio .portrait{
+        width:150px;
+        height: 150px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .speakers .bio .portrait{
+        width:100%;
+        height: auto;
+    }
 }
 
 /* Spacing for name and designation determine by margin bottom - currently is 15px */
