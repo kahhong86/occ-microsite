@@ -21,6 +21,7 @@
     margin:0 24px 110px;
     position: relative;
 }
+
 .speakers .bio .portrait{
     background:#ccc;
     width:193px;
@@ -48,7 +49,7 @@
 
 /* Spacing for name and designation determine by margin bottom - currently is 15px */
 .speakers .bio strong{
-    margin:25px 0 15px;
+    margin:25px 0 10px;
     border-top:5px solid #393939;
     padding:10px 0 0;
     font-family: 'Oswald';
@@ -125,6 +126,7 @@ body.modal-open{
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald";
+	padding-bottom: 15px;
 }
 .bio-desc{
     font-size:14px;
