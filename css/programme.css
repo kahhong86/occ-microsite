@@ -120,6 +120,10 @@
     list-style-type: disc;
 }
 
+.timing p:last-child{
+    margin-bottom:0;
+}
+
 .synopsis{
     height:0;
     font-size:15px;
