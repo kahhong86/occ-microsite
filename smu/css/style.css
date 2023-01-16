@@ -1,0 +1,160 @@
+
+.wrapper{
+    margin:0 auto;
+    max-width: 984px;
+    padding:0 20px;
+    position: relative;
+}
+
+header{
+    padding:0px 0 0;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 9999;
+    height: auto;
+}
+
+@media only screen and (min-width: 1400px) {
+    header .wrapper{
+        max-width: 1320px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header .wrapper{
+        max-width: 1140px;
+    }
+}
+
+header .wrapper{
+    padding:0;
+    max-width: 1450px;
+    position: relative;
+    z-index: 999;
+}
+
+.logo-container{
+    display: inline-block;
+    padding:0px 0px 0px 20px;
+    background-color: #fff;
+}
+
+.logo-container::before{
+    position: absolute;
+    height: 100%;
+    display: inline-block;
+    background: #FFF;
+    top: 0;
+    left: -9999px;
+    right: 100%;
+    content: "";
+}
+
+.oblique{
+    display: inline-block;
+    background: #000;
+}
+
+.smu-logo,.bu-logo{
+    padding:5px 0;
+}
+
+.logo-container div{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo-side{
+    border-left: 1px solid #122d70;
+    display: inline-block;
+    padding:0px 20px;
+    margin:10px 0 10px 20px;
+    color:#122d70;
+    font-size:12px;
+}
+
+.logo-side strong{
+    display: block;
+    font-size:18px;
+}
+
+#header{
+    background-color: #000;
+}
+
+#header nav{
+    background-color:rgba(112, 112, 112, 0.8);
+    color:white;
+}
+
+#header nav .wrapper{
+    padding:0 20px;
+}
+
+#header nav .wrapper div{
+    margin:0 -20px;
+}
+
+#header nav a{
+    display: inline-block;
+    padding:10px 0px;
+    font-weight: bold;
+    font-size:14px;
+    color:#fff;
+    margin:0 20px;
+}
+
+#header nav a:last-child{
+    background-color: #707070;
+    border-bottom:3px solid #707070;
+    padding:10px 20px;
+}
+#header nav a.selected:last-child{
+    border-bottom:3px solid #fff
+}
+
+.menu{
+    background-color: #fff;
+}
+.menu a{
+    border-bottom:3px solid transparent;
+}
+.menu a.selected{
+    border-bottom:3px solid #fff;
+}
+
+
+.small{
+    display: none;
+}
+
+.smu-logo img{
+    margin:6px 10px 0 0;
+}
+
+.bu-logo img{
+    margin:5px 0 0;
+    width: 157px;   
+}
+
+.oblique img{
+    width:30px
+}
+
+.small-menu,.small-nav{
+    display: none;
+}
+
+.sosumi{
+    display: flex;
+}
+
+
+.float-right{
+    float:right;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
