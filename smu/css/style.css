@@ -1,7 +1,7 @@
 
 .wrapper{
     margin:0 auto;
-    max-width: 984px;
+    max-width: 1450px;
     padding:0 20px;
     position: relative;
 }
@@ -157,4 +157,42 @@ header .wrapper{
 
 .uppercase{
     text-transform: uppercase;
+}
+
+.checkpoint{
+    border-bottom:1px solid #8b8b8b;
+    margin:0 0 0px;
+    font-family: "Oswald";
+}
+
+.checkpoint .wrapper{
+    padding:20px 0;
+}
+
+.checkpoint .date{
+    background:transparent url("../images/ico2.png") no-repeat left center;
+    background-size: 72px 72px;
+    font-size:40px;
+    padding:20px 35px 20px 30px;
+    font-weight: bold;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkpoint .address{
+    padding:0 0px 0 0px;
+    border-left:5px solid #000;
+    border-right:0px solid #000;
+    font-size:24px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.checkpoint a{
+    padding:25px 20px 25px 35px;
+    float:left;
+}
+
+.checkpoint div{
+    flex-grow: 1;
 }
