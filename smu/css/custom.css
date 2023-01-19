@@ -7829,6 +7829,11 @@ outline: none !important;
 
 /*Additional CSS*/
 
+/*HTML*/
+html{
+  scroll-behavior: smooth;
+}
+
 /* Logo */
 .logo{
   padding-left:100px;
