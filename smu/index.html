@@ -22,11 +22,13 @@ Singapore Management University (SMU)</title>
 <!-- Colors and Backgrounds CSS -->
 <link href="css/colors_1.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 
 <script type="text/javascript" src="js/jquery-2.2.1.js"></script>
 <script src="https://kit.fontawesome.com/6b1e09edee.js" crossorigin="anonymous"></script>
 <script src="js/custom.js"></script>
+<script src="js/main.js"></script>
 </head>
 <body>
 <div id="preloader">
@@ -56,11 +58,11 @@ Singapore Management University (SMU)</title>
       <nav>
           <div class="wrapper">
   <div>
-    <a class="selected" href="./index.html">Home</a>
-    <a href="#schedule_menu">Programme</a>
-    <a href="#speakers_menu">Speakers</a>
-    <a href="./downloads.html">Downloads</a>
-    <a class="float-right" href="./contact-us.html">Contact Us</a>
+    <a class="" href="#top">About</a>
+    <a href="#schedule_menu_scroll">Programme</a>
+    <a href="#speakers_menu_scroll">Speakers</a>
+    <a href="#contact_scroll">Contact Us</a>
+    <!-- <a class="float-right" href="./contact-us.html">Contact Us</a> -->
   </div>
           </div>
       </nav>
@@ -71,11 +73,10 @@ Singapore Management University (SMU)</title>
   </button>
   <nav class="small-nav">
       <div class="wrapper">
-          <a class="selected" href="./index.html">Home</a>
-          <a href="#schedule_menu">Programme</a>
-          <a href="#speakers_menu">Speakers</a>
-<a href="./downloads.html">Downloads</a>
-<a class=""  href="./contact-us.html">Contact US</a>
+        <a class="" href="#top">About</a>
+        <a href="#schedule_menu_scroll">Programme</a>
+        <a href="#speakers_menu_scroll">Speakers</a>
+        <a href="#contact_scroll">Contact Us</a>
       </div>
   </nav>
 </header>
@@ -89,7 +90,7 @@ Singapore Management University (SMU)</title>
   <div class="fill_mask">
    <div class="description">
     <h2 class="details newh">
-      6th Annual </h2>
+      7th Annual </h2>
     <div class="details">
      <p class="newp1">
       Wee Kim Wee<br>
@@ -128,6 +129,7 @@ Understanding
   </div>
 </div>
 
+<div class="wrapper">
 <div class="about-us" id="about_menu">
   <div class="desc">
    <p>The Office of Core Curriculum and the Wee Kim Wee Centre, with the support of Soka Gakkai Singapore, are proud to present the 6th Annual Wee Kim Wee Soka International Seminar on Global Peace and Understanding edition on 20 January 2022.</p>
@@ -158,18 +160,24 @@ Understanding
         </div>
         <div style="color: #21285e;  display: inline !important;" class="">
           <img style="margin-top: 30px;" src="images/SMU_Soka-Site (1).png" alt="">
+          
         </div>
+        
+        <span id="schedule_menu_scroll" style="position:relative; top:50px"></span>
     </div>
   </div>
+  
+</div>
 </div>
 <!-- End About -->
 <div id="schedule_menu">
+<div class="wrapper">
  <div class="gap">
  </div>
  <div class="first_line">
  </div>
  <div class="first_title">
-  <p style="color: #282828; font-size: 33px; letter-spacing: 0px; font-weight: 600; margin-left: 10%;" class="">
+  <p style="color: #282828; font-size: 33px; letter-spacing: 0px; font-weight: 600;" class="">
     PROGRAMME
   </p>
   <div class="border_bottom">
@@ -242,7 +250,7 @@ Understanding
         </p>
       </div>
       <div class="accordion_right">
-        <div class="accordions_titles_big">
+        <div class="accordions_titles">
           <div class="accordion_description">
             <p>
               <strong>PANEL ONE — Stories from the Ground: Pursuits of Wealth and Experiences of Poverty</strong><br>
@@ -327,8 +335,6 @@ Understanding
     </div>
 
     
-			<br>
-      <br>
       
 <!-- here -->	
         </div>
@@ -621,7 +627,7 @@ Understanding
   </div>
  </div>
 </div>
-
+</div>
 
 <!-- Register Now -->
 <div style="background: #151C55; width: 100%; margin: 0px; padding: 80px;" class="row">
@@ -629,6 +635,7 @@ Understanding
     <div class="container text-center">
       <a style="border: 3px solid #8a704d; font-weight: 600; color: #8a704c; margin-left: 0px !important;" href="https://smu-sg.zoom.us/meeting/register/tJYtduCrqTkrGtIHYj-wZ8Me9_Vd5Fc4Jp-v" class="schedule_reservation btn eventime_button fadeInRight mb-5" target="_blank">
         Register Now
+        <span class="" id="speakers_menu_scroll"></span>
        </a>
     </div>
   </div>
@@ -1496,8 +1503,10 @@ Understanding
 
 
 
+<span id="contact_scroll"></span>
 <!-- Contact -->
 <div id="contact_menu" class="">
+  
   <div style="width: 100%;" class="row">
     <div class="container">
     <div style="margin-top:50px;" class="row">
@@ -1549,17 +1558,17 @@ Understanding
 </div>
  
  </div>
-    
+ 
 <!-- End Contact -->
  <footer style="background: #151C55;">
   <div class="footer">
-   <a class="link" href="#about_menu">ABOUT</a>
+   <a class="link" href="#top">ABOUT</a>
    <span class="link">|</span>
-   <a class="link" href="#schedule_menu">PROGRAMME</a>
+   <a class="link" href="#schedule_menu_scroll">PROGRAMME</a>
    <span class="link">|</span>
-   <a class="link" href="#speakers_menu">SPEAKERS</a>
+   <a class="link" href="#speakers_menu_scroll">SPEAKERS</a>
    <span class="link">|</span>
-   <a class="link" href="#contact_menu">CONTACT</a>
+   <a class="link" href="#contact_scroll">CONTACT</a>
    <div class="mini_gap">
    </div>
   </div>
