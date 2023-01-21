@@ -167,6 +167,9 @@ header .wrapper{
 
 
 @media only screen and (max-width: 734px) {
+    .wrapper{
+        max-width: none;
+    }
     .small{
         display: inline-block;
     }
@@ -364,4 +367,35 @@ header .wrapper{
     margin-left: 250px ;
     margin-right: 250px ;
     line-height: 3.1rem;
+}
+
+.normal_button{
+    border: 3px solid #fff; 
+    font-weight: 600; 
+    color: #fff;
+    width: 245px;
+    padding:10px 25px;
+    margin:auto 20px;
+    font-size:18px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    display: inline-block;
+}
+
+.normal_button:hover{
+    background:black;
+    color:white;
+    text-decoration: none;
+}
+
+.register_section{
+    background: #655dc6; 
+    margin: 0px auto; 
+    padding: 80px 0;
+}
+
+
+/*Intro paragraph*/
+.about-us .desc p{
+    line-height: 150%;
 }
