@@ -316,3 +316,52 @@ header .wrapper{
         top:70px;
     }
 }
+.navigation,.small-nav{
+    font-family: "Open Sans";
+}
+
+.bio-button{
+    background: #655dc6; 
+    padding: 10px; 
+    color: white; 
+    margin-top: 0;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.copyright{
+    color: white; 
+    text-align: center; 
+    font-size: 11px; 
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+
+.copyright span{
+    color:white
+}
+
+.footer .link{
+    font-weight: bold;
+}
+
+.description, .description .details{
+    color: white;
+}
+
+.description h2.details {
+    color:white;
+    font-size:31px;
+    letter-spacing: 0px;
+    font-weight: 400;
+    margin-top: 80px;
+}
+
+.description .details p{
+    font-size: 53px;
+    color: white;
+    font-weight: 300 ;
+    margin-left: 250px ;
+    margin-right: 250px ;
+    line-height: 3.1rem;
+}

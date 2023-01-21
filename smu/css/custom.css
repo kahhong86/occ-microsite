@@ -120,7 +120,7 @@ body {
     font-size: 18px;
     border: none;
     outline: none;
-    background-color: #8A704C;
+    background-color: #655dc6;
     color: white;
     cursor: pointer;
     padding: 10px;
@@ -200,7 +200,7 @@ a.collapsed .readLess {
 /*Testing Code End*/
 
 .eventime_button:hover{
-  background: #8a704d !important;
+  background: #000 !important;
   color: white !important;
 }
 
