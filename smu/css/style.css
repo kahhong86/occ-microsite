@@ -151,42 +151,18 @@ header .wrapper{
     text-transform: uppercase;
 }
 
-.checkpoint{
-    border-bottom:1px solid #8b8b8b;
-    margin:0 0 0px;
-    font-family: "Oswald";
+.aboutmt{
+    color: #000; 
+    font-size: 18px; 
+    font-weight: 700;
 }
 
-.checkpoint .wrapper{
-    padding:20px 0;
+.aboutmt p:first-child{
+    margin-bottom:10px;
+    font-size:23px;
 }
-
-.checkpoint .date{
-    background:transparent url("../images/ico2.png") no-repeat left center;
-    background-size: 72px 72px;
-    font-size:40px;
-    padding:20px 35px 20px 30px;
-    font-weight: bold;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.checkpoint .address{
-    padding:0 0px 0 0px;
-    border-left:5px solid #000;
-    border-right:0px solid #000;
-    font-size:24px;
-    display: inline-block;
-    vertical-align: top;
-}
-
-.checkpoint a{
-    padding:25px 20px 25px 35px;
-    float:left;
-}
-
-.checkpoint div{
-    flex-grow: 1;
+.aboutmt p{
+    margin-bottom:0;
 }
 
 
@@ -311,5 +287,32 @@ header .wrapper{
     }
     #header .small-nav a.selected{
         border-left:3px solid #fff;
+    }
+}
+
+#about_scroll{
+    position: relative;
+    bottom:120px;
+}
+@media only screen and (max-width: 734px) {
+    #about_scroll{
+        bottom:60px;
+    }
+}
+#schedule_menu_scroll{
+    position:relative; 
+    top:50px
+}
+@media only screen and (max-width: 734px) {
+    #schedule_menu_scroll{
+        top:110px;
+    }
+}
+#speakers_menu_scroll{
+    position: relative;
+}
+@media only screen and (max-width: 734px) {
+    #speakers_menu_scroll{
+        top:70px;
     }
 }

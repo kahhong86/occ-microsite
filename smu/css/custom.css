@@ -197,11 +197,6 @@ a.collapsed .readLess {
   overflow: hidden;
 }
 
-
-.aboutmt{
-  margin-top: -57px;
-}
-
 /*Testing Code End*/
 
 .eventime_button:hover{
@@ -237,13 +232,10 @@ a.collapsed .readLess {
   padding-top: 50px !important;
 }
 
-.footer .link{
-  color: #fdd8a5 !important;
-}
 
  .footer {
    padding-top: 80px !important;
-  background: #151C55 !important;
+   background-color:#655dc6;
 }
 .mask {
   background-color: #FEFEFD !important;
@@ -345,7 +337,7 @@ border-radius: 0 !important;
 }
 .border_bottom1{
   
-  border-bottom: 4px solid #8a704d;
+  border-bottom: 4px solid #000;
   width: 83%;
   margin: auto;
   margin-top: 20px;
@@ -353,7 +345,7 @@ border-radius: 0 !important;
 
 .border_bottom3{
   
-  border-bottom: 6px solid #151C55;
+  border-bottom: 6px solid #655dc6;
   width: 80%;
   margin-bottom: 20px;
   margin-top: 20px;
@@ -3645,6 +3637,8 @@ a.contact_icon {
     -o-transition: all .5s ease-in-out;
 
     transition: all .5s ease-in-out;
+
+    color:#fff;
 
 }
 
@@ -7884,7 +7878,7 @@ html{
 
 /* Programme Section */
 .box-description button{
-  color:#4250c0;
+  color:#655dc6;
   border:0;
   background:transparent;
   text-transform: uppercase;

@@ -200,9 +200,6 @@ a.footer_icon:hover,
 }
 /*!------------------------------ Background settings | Transparents in RGBA and Background images ------------------------------*/
 .nav_mask,
-.footer {
-    background: rgba(0, 0, 0, 0.8);
-}
 .nav_mask_full {
     background: rgba(0, 0, 0, 1);
 }
