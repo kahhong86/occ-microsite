@@ -383,8 +383,8 @@ header .wrapper{
 }
 
 .normal_button:hover{
-    background:black;
-    color:white;
+    background:#655dc6;
+    color:black;
     text-decoration: none;
 }
 
@@ -398,4 +398,6 @@ header .wrapper{
 /*Intro paragraph*/
 .about-us .desc p{
     line-height: 150%;
+	font-size: 18px;
+	text-align: justify;
 }
