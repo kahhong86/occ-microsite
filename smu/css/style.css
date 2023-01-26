@@ -386,6 +386,11 @@ header .wrapper{
     text-decoration: none;
 }
 
+.normal_button:visited{
+    color:white;
+    text-decoration: none;
+}
+
 .register_section{
     background: #655dc6; 
     margin: 0px auto; 
