@@ -378,15 +378,16 @@ header .wrapper{
     text-transform: uppercase;
     letter-spacing: 3px;
     display: inline-block;
-}
-
-.normal_button:hover{
-    background:#655dc6;
-    color:black;
     text-decoration: none;
 }
 
-.normal_button:visited{
+.normal_button:hover{
+    background:black;
+    color:white;
+    text-decoration: none;
+}
+
+.normal_button:visited,.normal_button:focus{
     color:white;
     text-decoration: none;
 }
