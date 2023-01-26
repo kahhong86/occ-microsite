@@ -1272,7 +1272,7 @@ nav {
 
 .fill_mask {
 
-    min-height: 400px;
+    min-height: 600px;
 
 
 }
@@ -1335,13 +1335,6 @@ nav {
     -webkit-transform: scale(1,1); 
     transform: scale(1,1);
 
--webkit-transition: all 20s linear;
-
-    -moz-transition: all 20s linear;
-
-    -o-transition: all 20s linear;
-
-    transition: all 20s linear;
 }
 
 .fill_mask {
