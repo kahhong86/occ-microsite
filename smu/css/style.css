@@ -418,6 +418,19 @@ header .wrapper{
     display: block;
 }
 
+/*Hero banner*/
+@media only screen and (max-width: 500px) {
+    #home_slider, #home_slider .carousel-inner .fill{
+        min-height: 600px;
+        height: auto;
+    }
+    .description .details p{
+        font-size:40px;
+    }
+    .description h2.details{
+        margin-top:0;
+    }
+}
 
 
 /*Contact Us Section*/
@@ -485,3 +498,5 @@ header .wrapper{
         margin:0 0 20px;
     }
 }
+
+
