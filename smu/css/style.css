@@ -364,8 +364,6 @@ header .wrapper{
     font-size: 53px;
     color: white;
     font-weight: 300 ;
-    margin-left: 250px ;
-    margin-right: 250px ;
     line-height: 3.1rem;
 }
 
@@ -400,4 +398,84 @@ header .wrapper{
     line-height: 150%;
 	font-size: 18px;
 	text-align: justify;
+}
+
+.modal .modal-content .modal-body p{
+    text-align: justify;
+}
+
+.carousel .carousel-inner .description .details{
+    font-family: "Dosis";
+}
+
+.carousel .carousel-inner .description .details p{
+    display: block;
+}
+
+
+
+/*Contact Us Section*/
+#contact_menu .container{
+    max-width: 1110px;
+}
+
+@media only screen and (max-width: 768px) {
+    #contact_menu .container{
+        width: auto;
+        margin:0 auto;
+        padding:0;
+        text-align: center;
+    }
+
+    #contact_menu .container .first_title{
+        width:100%;
+    }
+
+
+}
+
+#contact_menu{
+    padding:50px 0;
+}
+
+#contact_menu h5{
+    color: #282828; 
+    font-size: 33px; 
+    letter-spacing: 0px; 
+    font-weight: 600; 
+}
+
+#contact_menu .contact_border{
+    margin-top: 20px;
+    border-bottom: 4px solid #282828;
+    width: 20%;
+    margin-bottom:30px;
+}
+#contact_menu .information_container .information span{
+    color: #151C55;
+}
+
+@media only screen and (max-width: 768px) {
+    #contact_menu .contact_border{
+        margin:20px auto 30px;
+    }
+    #contact_menu .information_container .information span{
+        margin-right:10px;
+    }
+}
+
+
+#contact_menu .information_container{
+    display:grid;
+    grid-template-columns: auto auto;
+}
+
+
+@media only screen and (max-width: 500px) {
+    #contact_menu .information_container{
+        display:block;
+    }
+    #contact_menu .information_container .information{
+        margin:0 0 20px;
+    }
 }
