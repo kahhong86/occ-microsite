@@ -7,6 +7,11 @@ $(document).ready(function(){
         $('.small-menu').toggleClass('active');
     });
 
+    $('.small-nav a').click(function(){
+        $('.small-nav').toggleClass('active');
+        $('.small-menu').toggleClass('active');
+    });
+
     $('#backtotop').click(function(e){
         e.preventDefault();
         $('html').animate({
