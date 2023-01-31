@@ -7861,6 +7861,7 @@ html{
   }
   .about-us .agenda, .about-us .desc{
     width:100%;
+    padding-right:0;
   }
 
   .about-us .agenda{
