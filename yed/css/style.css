@@ -74,6 +74,7 @@ header .wrapper{
 
 p{
     margin:0px 0 20px;
+	line-height: 21px;
 }
 
 .logo-container{
@@ -222,6 +223,7 @@ p{
     font-family: 'Oswald';
     text-transform: uppercase;
     font-weight: bold;
+	margin-top: 50px;
 }
 
 .title-header-alt{

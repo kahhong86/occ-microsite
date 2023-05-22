@@ -1,0 +1,172 @@
+#programme .hero{
+    background-image: url(../assets/programme/header_Programme.jpg);
+    border-bottom:18px solid #387c48;
+}
+
+.button{
+    background:#387c48;
+}
+
+.schedule-nav{
+    margin:40px 0 40px;
+    
+    flex-flow: row wrap;
+    display: flex;
+}
+
+
+.schedule-nav a{
+    border:3px solid #ccc;
+    margin:0 -1px;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    color:#999;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.schedule-nav a.selected{
+    border-color:#ff4949;
+    z-index: 2;
+    position: relative;
+}
+
+.schedule{
+    margin:0 0 40px;
+}
+
+.schedule .date{
+    margin:0 0 40px;
+    padding: 0;
+    font-weight: 100;
+	font-size: 35px;
+    text-transform: uppercase;
+}
+
+.schedule .date strong{
+    font-size:40px;
+    border:3px solid #ff4949;
+    padding:2px 8px 5px;
+    font-weight: bold;
+    position: relative;
+    top:3px;
+    margin:0 5px 0 0;
+}
+
+.timing{
+    font-size:18px;
+    display: flex;
+    margin:0 0 30px;
+}
+
+
+.timing div{
+    display: inline-block;
+}
+
+.timing div:first-child{
+    width:30%;
+    display: flex;
+    align-items: center;
+    border-left:0;
+    text-align: left;
+    padding-left:5px;
+}
+
+.timing div{
+    width:70%;
+    border-left:3px solid #ccc;
+    padding:10px 0 10px 40px;
+    margin:0 0 10px;
+}
+
+.timing div strong{
+    width: auto;
+}
+
+.timing .title{
+    text-transform: uppercase;
+    font-size:20px;
+    font-weight: 100;
+}
+
+.timing div a.expand span{
+    transform:rotate(90deg) translate(2px,-3px);
+}
+
+.timing div a span{
+    transition:transform 0.5s;
+    display: inline-block;
+}
+
+.timing .subtitle{
+    text-transform: uppercase;
+    display: block;
+}
+
+.timing .synopsis-container{
+    padding:0;
+    margin:0;
+    border:0;
+    width: 100%;
+}
+.timing ul{
+    display: list-item;
+    padding-left: 20px;
+}
+.timing ul li{
+    list-style-type: disc;
+}
+
+.synopsis{
+    height:0;
+    font-size:15px;
+    line-height: 140%;
+    display: block;
+    overflow: hidden;
+    margin:0 0 0px;
+}
+.synopsis.expand{
+    height: auto;
+    margin:0 0 10px;
+}
+
+.small{
+    display: none;
+}
+
+@media only screen and (max-width: 734px) {
+    .schedule-nav a{
+        padding:10px 0;
+        font-size:12px;
+    }
+
+    .timing{
+        font-size:14px;
+        display: block;
+        border-bottom:3px solid #ccc;
+    }
+    .timing div:first-child{
+        
+        width: 100%;
+        padding:0;
+    }
+    .timing div{
+        border:0;
+        width: 100%;
+        padding-left: 0;
+    }
+    .timing .title{
+        font-size:16px;
+    }
+    .timing .time{
+        font-size:18px;
+        width: 100%;
+    }
+
+    .small{
+        display: inline;
+    }
+}

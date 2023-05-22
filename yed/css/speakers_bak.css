@@ -1,43 +1,60 @@
-#downloads .hero{
-    background-image: url(../assets/downloads/header_Downloads.jpg);
-    border-bottom:18px solid #4fb548;
+#speakers .hero{
+    background-image: url(../assets/speakers/header_Speakers.jpg);
+    border-bottom:18px solid #34bce2;
 }
-
-/* Solid border */
-hr.solid {
-  border-top: 4px solid #34bce2;
-}
-
 
 .button{
-    background-color: #4fb548;
-}
-.button.download{
-    background-color: #39875e;
-    text-transform: uppercase;
-    color:#fff;
-}
-ol li img{
-    display: inline-block;
+    background-color: #34bce2;
 }
 
-
-/* This controls the unordered list on the what's up instruction */
-.instruction li{
-    line-height: 130%;
-    margin:0 0 20px;
+.speakers-title{
+    margin-bottom:70px;
 }
 
-.bg{
-    display: flex;
-    flex-wrap: wrap;
-    margin:0 -2%;
+.speakers{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin:0 -10px;
 }
-
-.bg span{
-    width: 46%;
-    margin:2%;
+.speakers .bio{
+    margin:0 24px 110px;
     position: relative;
+}
+.speakers .bio .portrait{
+    background:#ccc;
+    width:100%;
+    height: 150px;
+	width:193px;
+    height: 193px;
+    overflow: hidden;
+}
+
+/* Spacing for name and designation determine by margin bottom - currently is 15px */
+.speakers .bio strong{
+    margin:25px 0 10px;
+    border-top:5px solid #393939;
+    padding:10px 0 0;
+    font-family: 'Oswald';
+	font-size: 20px;
+    display: block;
+}
+.speakers .bio span{
+    display: block;
+    font-size:14px;
+}
+.speakers .bio button{
+    background-color: #151c55;
+    padding:5px 10px;
+    color:#fff;
+    margin:20px 0 0;
+    text-transform: uppercase;
+    font-size:13px;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width:85px;
 }
 
 body.modal-open{
@@ -63,7 +80,7 @@ body.modal-open{
 }
 .modal-box{
     background-color: #fff;
-    width: 90vw;
+    width: 500px;
     height: auto;
     color:#000;
     padding:30px;
@@ -92,6 +109,7 @@ body.modal-open{
     font-weight: bold;
     text-transform: uppercase;
     font-family: "Oswald";
+	padding-bottom: 15px;
 }
 .bio-desc{
     font-size:14px;
@@ -126,8 +144,19 @@ body.modal-open{
 .modal-box .portrait p{
     font-size:15px;
 }
+
+
 @media only screen and (max-width: 734px) {
-    .bg{
-        display: block;
+    .speakers{
+        grid-template-columns: 1fr 1fr;   
+    }
+
+    .modal-box{
+        width: 90vw;
+    }
+
+    .speakers-title{
+        margin-bottom:40px;
     }
 }
+
