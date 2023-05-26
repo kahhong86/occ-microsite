@@ -68,6 +68,11 @@
     margin:0 0 10px;
 }
 
+.ico-group .tf img{
+    position:relative;
+    top:5px;
+}
+
 .contact-us{
     background-color: #0f686e;
     padding:40px 0;

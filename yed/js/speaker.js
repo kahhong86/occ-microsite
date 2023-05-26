@@ -9,7 +9,13 @@ $( document ).ready(function() {
         },200);
     });
 
-    $('.modal-close').click(function(e){
+    // $('.modal-close').click(function(e){
+    //     e.preventDefault();
+    //     $('body').removeClass('modal-open');
+    //     $('.modal').removeClass('open');
+    //     $('.modal-box').addClass('modal-hidden');
+    // });
+    $('.modal').click(function(e){
         e.preventDefault();
         $('body').removeClass('modal-open');
         $('.modal').removeClass('open');
